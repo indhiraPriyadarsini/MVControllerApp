@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<p>hello</p>
+
+
+@{
+    var date = DateTime.Now.ToShortTimeString();
+    var message = "Heloo World";
+}
+
+<p>@date</p>
+<p>@message</p>
+
+
+@if(1>0){
+    <p>success</p>
+}
+else{
+    <p>failure</p>
+}
+
+
+
+@Html.ActionLink("click me", "presidio", "Employee")
